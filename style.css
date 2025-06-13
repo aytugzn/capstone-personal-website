@@ -211,6 +211,11 @@ a:hover{
     .skills-text p{
         font-size: 0.9rem;
     }
+    
+    .skills-image{
+    max-width: 100%; 
+    height: auto;
+    }
 
     .btn-mail {
     width: 60%;
@@ -238,10 +243,6 @@ a:hover{
     max-width: 500px; 
     margin: 0 auto;
     text-align: center;
-    }
-
-    .html-skill, css-skill{
-        height: 133px;
     }
 
 }
