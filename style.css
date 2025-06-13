@@ -215,7 +215,7 @@ a:hover{
     .skills-image{
     height: 5rem;
     padding: 0px;
-    margin: 0 auto;
+    padding-right: 5px;
     }
 
     .btn-mail {
