@@ -148,7 +148,7 @@ h2{
 }
 
 h3{
-        font-family: "Open Sans", sans-serif;
+    font-family: "Open Sans", sans-serif;
     font-size: 1.5rem;
     margin-top: 20px;
     color: #4A6C7B;
@@ -214,11 +214,7 @@ a:hover{
     }
 
     .skills-text p{
-<<<<<<< HEAD
         font-size: 0.9rem;
-=======
-        font-size: 1rem;
->>>>>>> cf95affe1515f81d5a5b460321ef718fd4d1515b
     }
 
     .btn-mail {
@@ -242,7 +238,6 @@ a:hover{
     width: 80%;
     }
 
-<<<<<<< HEAD
     #information p {
     width: 90%; 
     max-width: 500px; 
@@ -251,6 +246,3 @@ a:hover{
     }
 
 }
-=======
-}
->>>>>>> cf95affe1515f81d5a5b460321ef718fd4d1515b
