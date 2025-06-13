@@ -214,7 +214,11 @@ a:hover{
     }
 
     .skills-text p{
+<<<<<<< HEAD
         font-size: 0.9rem;
+=======
+        font-size: 1rem;
+>>>>>>> cf95affe1515f81d5a5b460321ef718fd4d1515b
     }
 
     .btn-mail {
@@ -238,6 +242,7 @@ a:hover{
     width: 80%;
     }
 
+<<<<<<< HEAD
     #information p {
     width: 90%; 
     max-width: 500px; 
@@ -246,3 +251,6 @@ a:hover{
     }
 
 }
+=======
+}
+>>>>>>> cf95affe1515f81d5a5b460321ef718fd4d1515b
