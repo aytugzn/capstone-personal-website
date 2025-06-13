@@ -1,0 +1,242 @@
+/* id */
+
+#title{
+    background-color: #B3C8CF;
+    position: relative;
+    padding: 50px 0px 0px;
+    width: 100%;
+}
+
+#information{
+    padding: 100px;
+    width:100%;
+}
+
+#footer{
+    width: 100%;
+}
+
+
+
+
+
+
+/* class */
+
+.title-image{
+    height: 350px;
+    padding-bottom: 0px;
+    margin: 50px 0px 0px;
+}
+
+.container{
+    display:flex;
+    justify-content: center;
+}
+
+.personal-image{
+    margin-bottom: 20px;
+    height: 200px;
+    border-radius: 50%;
+}
+
+.skills{
+    display: grid;
+    grid-template-columns: 1fr 4fr;
+    grid-template-rows: repeat(4, 1fr);
+    width:50%;
+    gap: 1rem;
+    text-align: center;
+    margin:0px auto 50px;
+}
+
+.skills-image{
+   
+height: 10rem;
+padding: 20px;
+
+}
+
+.skills-text{
+    text-align: left;
+}
+
+.skills-header{
+    margin: 50px 0px;
+}
+
+.contact{
+    margin: 50px;
+}
+
+.btn-mail {
+  background: #11cdd4;
+  background-image: -webkit-linear-gradient(top, #27b0b5, #89A8B2);
+  background-image: -moz-linear-gradient(top, #27b0b5, #89A8B2);
+  background-image: -ms-linear-gradient(top, #27b0b5, #89A8B2);
+  background-image: -o-linear-gradient(top, #27b0b5, #89A8B2);
+  background-image: linear-gradient(to bottom, #27b0b5, #89A8B2);
+  border:none;
+  -webkit-border-radius: 8;
+  -moz-border-radius: 8;
+  border-radius: 8px;
+  font-family: "Montserrat", sans-serif;
+  color: #ffffff;
+  font-size: 20px;
+  padding: 10px 20px;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.btn-mail:hover {
+  background: #30e3cb;
+  background-image: -webkit-linear-gradient(top, #B3C8CF, #47b2be);
+  background-image: -moz-linear-gradient(top, #B3C8CF, #47b2be);
+  background-image: -ms-linear-gradient(top, #B3C8CF, #47b2be);
+  background-image: -o-linear-gradient(top, #B3C8CF, #47b2be);
+  background-image: linear-gradient(to bottom, #B3C8CF, #47b2be);
+  text-decoration: none;
+}
+
+.contact-info{
+    background-color: #89A8B2;
+    margin-top: 70px;
+    padding: 50px 0 15px;
+}
+
+.info-list{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr;
+    width: 50%;
+    margin: 0 auto;
+    padding-right: 45px;
+}
+
+.brand-icon{
+    height: 0.85rem;
+}
+
+.footer-copyright{
+    padding: 50px;
+    width: 50%;
+    margin: 0 auto;
+}
+
+/* element */
+
+body{
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    background-color: #F1F0E8;
+    font-family: "Ancizar Serif", serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+}
+
+h1{
+    font-family: "Russo One", sans-serif;
+    font-weight: 400;
+    font-size: 5rem;
+    color: #4A6C7B;
+    margin-bottom: 0px;
+}
+
+h2{
+    font-family: "Open Sans", sans-serif;
+    font-size: 2.5rem;
+    margin-top: 20px;
+    color: #4A6C7B;
+}
+
+h3{
+        font-family: "Open Sans", sans-serif;
+    font-size: 1.5rem;
+    margin-top: 20px;
+    color: #4A6C7B;
+}
+
+p{
+    font-size: 1.4rem;
+}
+
+a{
+    color:#63787f;
+    font-family: "Open Sans", sans-serif;
+    text-decoration: none;
+}
+
+a:hover{
+    color: #30e3cb;
+    text-decoration: underline;
+}
+
+/* combines */
+
+.skills-header h2{
+    margin:0px;
+    padding: 0px;;
+}
+
+#information p{
+    width:70%;
+    margin: 0 auto;
+}
+
+#footer p{
+    width: 70%;
+    margin: 0 auto;
+}
+
+.info-list ul{
+    list-style:none ;
+    font-size: 1.2rem;
+}
+
+.footer-copyright p{
+    font-size: 0.9rem;
+    color: #494949;
+}
+
+/* responsive */
+
+@media (max-width: 768px){
+
+    .skills{
+    grid-template-columns: 1fr;
+    }
+
+    .skills-image{
+        height: 8rem;
+        margin: 0 auto;
+    }
+
+    .skills-text p{
+        font-size: 1rem;
+        text-align: justify;
+    }
+
+    .btn-mail {
+    width: 60%;
+    font-size: 1.1rem;
+    padding: 12px;
+    }
+
+  .info-list {
+    width: 90%;
+    grid-template-columns: 1fr;
+    gap: 0.2rem;
+    text-align: center;
+    }
+
+    hr {
+    border: none;
+    height: 1px;
+    background-color: #ccc;
+    margin: 50px auto;
+    width: 80%;
+    }
+
+}
