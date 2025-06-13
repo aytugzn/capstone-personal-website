@@ -204,11 +204,6 @@ a:hover{
     grid-template-columns: 1fr;
     }
 
-    .skills-image{
-        height: 8rem;
-        margin: 0 auto;
-    }
-
     .skills h3{
         font-size: 1.3rem;
     }
